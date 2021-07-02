@@ -20,11 +20,7 @@ import java.util.Map;
 public class Hlll implements DeliveryTransitionAssistantContentService {
     @Override
     public TransitionResult getAllActivityInfo(String s) {
-        System.out.println(s);
-        TransitionResult ss= new TransitionResult();
-        ss.setSuccess(false);
-        ss.setErrorMsg("getAllActivityInfo");
-        return ss;
+        return null;
     }
 
     @Override
@@ -32,17 +28,13 @@ public class Hlll implements DeliveryTransitionAssistantContentService {
         System.out.println(JsonUtil.write2JsonStr(deliveryDynamicFlow));
         TransitionResult ss= new TransitionResult();
         ss.setSuccess(true);
-        ss.setErrorMsg("insertContentItem");
+        ss.setErrorMsg("dsafdsa");
         return ss;
     }
 
     @Override
     public TransitionResult getContentList(Map<String, Object> map) {
-        System.out.println(map);
-        TransitionResult ss= new TransitionResult();
-        ss.setSuccess(false);
-        ss.setErrorMsg("getContentList");
-        return ss;
+        return null;
     }
 
     @Override
@@ -57,11 +49,7 @@ public class Hlll implements DeliveryTransitionAssistantContentService {
 
     @Override
     public TransitionResult getTagNameAndType(List<Long> list) {
-        System.out.println(list);
-        TransitionResult ss= new TransitionResult();
-        ss.setSuccess(false);
-        ss.setErrorMsg("getTagNameAndType");
-        return ss;
+        return null;
     }
 
     @Override
